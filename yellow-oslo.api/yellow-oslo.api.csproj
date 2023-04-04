@@ -4,12 +4,16 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>YOUR_PROJECT_NAME.Api</RootNamespace>
+    <RootNamespace>yellow_oslo.api</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\yellow-oslo.Domain\yellow-oslo.Domain.csproj" />
   </ItemGroup>
 
 </Project>
