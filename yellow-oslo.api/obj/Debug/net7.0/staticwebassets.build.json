@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dt7WMuQmqOrR6Bw9QYr+W19LlmY+/Pq8EZyz7m2bukE=",
+  "Source": "yellow-oslo.api",
+  "BasePath": "_content/yellow-oslo.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

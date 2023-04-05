@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\yellow-oslo.api.props" />
+</Project>
