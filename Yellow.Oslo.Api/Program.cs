@@ -13,7 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<StoreContext>(options => 
 options.UseSqlite("Data Source= ../Registrar.sqlite", 
-b => b.MigrationsAssembly(assemblyName: "yellow.oslo.api")));
+b => b.MigrationsAssembly("Yellow.Oslo.Api")));
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
