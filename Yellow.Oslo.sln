@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yellow.Oslo.Api", "Yellow.O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yellow.Oslo.Domain", "Yellow.Oslo.Domain\Yellow.Oslo.Domain.csproj", "{200CE08D-E071-4F54-A168-4FE538D31C42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yellow.oslo.data", "yellow.oslo.data\yellow.oslo.data.csproj", "{54032D87-5AFB-4A49-BB6D-EE5BB82733F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{200CE08D-E071-4F54-A168-4FE538D31C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{200CE08D-E071-4F54-A168-4FE538D31C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{200CE08D-E071-4F54-A168-4FE538D31C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54032D87-5AFB-4A49-BB6D-EE5BB82733F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54032D87-5AFB-4A49-BB6D-EE5BB82733F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54032D87-5AFB-4A49-BB6D-EE5BB82733F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54032D87-5AFB-4A49-BB6D-EE5BB82733F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
