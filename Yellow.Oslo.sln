@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yellow.Oslo.Api", "Yellow.Oslo.Api\Yellow.Oslo.Api.csproj", "{01C1F85C-14E9-452B-9F55-76C00031E82D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yellow.Oslo.Domain", "Yellow.Oslo.Domain\Yellow.Oslo.Domain.csproj", "{200CE08D-E071-4F54-A168-4FE538D31C42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01C1F85C-14E9-452B-9F55-76C00031E82D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C1F85C-14E9-452B-9F55-76C00031E82D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C1F85C-14E9-452B-9F55-76C00031E82D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C1F85C-14E9-452B-9F55-76C00031E82D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200CE08D-E071-4F54-A168-4FE538D31C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200CE08D-E071-4F54-A168-4FE538D31C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200CE08D-E071-4F54-A168-4FE538D31C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200CE08D-E071-4F54-A168-4FE538D31C42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
