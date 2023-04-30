@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Yellow.Oslo.Domain.Catalog;
 using Yellow.Oslo.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Yellow.Oslo.Api.Controllers
 {
@@ -69,6 +70,7 @@ public class CatalogController : ControllerBase
     }
 
     [HttpDelete("{id:int}")]
+    [Authorize("delete:catalog")]
     public IActionResult DeleteItem(int id)
     {
         var item = _db.Items.Find(id);
